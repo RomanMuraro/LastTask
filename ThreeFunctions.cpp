@@ -12,3 +12,14 @@ int fact(int a){
 		cd = cd*i
 	}
 return cd;}
+
+ int main(){
+	int b;
+	int c;
+	cin>>b;
+	c = b;
+	b = fact(b);
+	c = sqrt(c);
+	cout<<" Factorial is "<<b<<", Sqrt is "<<c;
+	
+return 0;}
